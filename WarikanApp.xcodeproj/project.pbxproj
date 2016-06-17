@@ -15,6 +15,7 @@
 		9A0329C21D13D3B40028B90F /* WarikanAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0329C11D13D3B40028B90F /* WarikanAppUITests.m */; };
 		9A0329D21D13D4120028B90F /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A0329D01D13D4120028B90F /* HomeViewController.m */; };
 		9A0329D31D13D4120028B90F /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A0329D11D13D4120028B90F /* HomeViewController.xib */; };
+		9A0329D51D1424E50028B90F /* メモ in Resources */ = {isa = PBXBuildFile; fileRef = 9A0329D41D1424E50028B90F /* メモ */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		9A0329CF1D13D4120028B90F /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
 		9A0329D01D13D4120028B90F /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		9A0329D11D13D4120028B90F /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		9A0329D41D1424E50028B90F /* メモ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "メモ"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		9A03299B1D13D3B30028B90F /* WarikanApp */ = {
 			isa = PBXGroup;
 			children = (
+				9A0329D41D1424E50028B90F /* メモ */,
 				9A03299F1D13D3B30028B90F /* AppDelegate.h */,
 				9A0329A01D13D3B30028B90F /* AppDelegate.m */,
 				9A0329CF1D13D4120028B90F /* HomeViewController.h */,
@@ -244,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A0329AC1D13D3B30028B90F /* LaunchScreen.storyboard in Resources */,
+				9A0329D51D1424E50028B90F /* メモ in Resources */,
 				9A0329A91D13D3B30028B90F /* Assets.xcassets in Resources */,
 				9A0329D31D13D4120028B90F /* HomeViewController.xib in Resources */,
 			);
@@ -488,6 +492,7 @@
 				9A0329C81D13D3B40028B90F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A0329C91D13D3B40028B90F /* Build configuration list for PBXNativeTarget "WarikanAppTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +501,7 @@
 				9A0329CB1D13D3B40028B90F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A0329CC1D13D3B40028B90F /* Build configuration list for PBXNativeTarget "WarikanAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +510,7 @@
 				9A0329CE1D13D3B40028B90F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
