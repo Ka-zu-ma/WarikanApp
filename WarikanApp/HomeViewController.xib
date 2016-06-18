@@ -57,9 +57,9 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X36-N8-xcQ">
-                    <rect key="frame" x="20" y="382" width="280" height="20"/>
+                    <rect key="frame" x="20" y="382" width="280" height="50"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="20" id="a19-iV-yFW"/>
+                        <constraint firstAttribute="height" constant="50" id="0gO-Po-im3"/>
                     </constraints>
                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
